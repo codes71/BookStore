@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bgImage{
+    size: 720x ;
+    height:900px;
+    background:url('./Images/library.jpeg') no-repeat; 
+    background-size: cover;
+}
+.footer{
+background: rgb(243, 215, 56);
+}
+.menu{
+    padding: 10pz;
+    margin: 10px;
+    color: rgb(36, 19, 19);
+}
+.footer-heading{
+    color: purple;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+.footer-heading:hover{
+    color: rgb(32, 194, 235);
+    font-size: 22px;
+    border: rgb(131, 54, 54) 1px solid;
+}
+.searchButton{
+    color: rgb(87, 255, 20);
+}
+.quote{
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
+}
+.bookHeading{
+    color: white;
+}
+.category{
+    display: block;
+    margin: 5px;
+    border: lightgreen solid 1px;
+    border-radius: 5px; 
+}
+a{
+    color: white;
+}
+.homeText{
+    margin: 20px 20px;
+}
+.headerImg{
+
+    margin: auto;
+}
+.books{
+    margin-top: 15px;
+}
+.pricetag{
+    white-space:nowrap;
+    position:relative;
+    margin:0 5px 0 10px;
+    displaY:inline-block;
+    height:25px;
+    border-radius: 0 5px 5px 0;
+    padding: 0 25px 0 15px;
+    background:#40aae7;
+    border: 0 solid #C7D2D4;
+    border-top-width:1px;
+    border-bottom-width:1px;
+    color:rgb(153, 37, 37);
+    line-height:23px;
+}
+.pricetag:after{
+    position:absolute;
+    right:0;
+    margin:1px 7px;
+    font-weight:bold;
+    font-size:19px;
+    content:"\00D7";
+}
+.pricetag:before{
+    position:absolute;
+    content:"\25CF";
+    color:white;
+    text-shadow: 0 0 1px #333;
+    font-size:11px;
+    line-height:0px;
+    text-indent:12px;
+    left:-15px;
+    width: 1px;
+    height:0px;
+    border-right:14px solid #E8EDF0;
+    border-top:  13px solid transparent;
+    border-bottom:  13px solid transparent;
+}
+.catList{
+    background-color: tomato;
+}

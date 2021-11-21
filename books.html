@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple Book Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body style="
+background: linear-gradient(#fd387a, #ff091d);">
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">E-book Lover</a>
+
+            <img src="./Images/revolution.jpg" alt="Spring revolution" style="padding: 5px 5px 5px 5px;">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-pills nav-fill">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link active" href="./books.html" aria-current="page">Books</a>
+                </li>
+                </ul>
+                <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    </header>
+<!-- Body -->
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h1>
+                Choose Category
+            </h1>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-primary active" aria-current="true">
+                  Novel
+                </a>
+                <a href="#" class="list-group-item list-group-item-info">Fiction</a>
+                <a href="#" class="list-group-item list-group-item-secondary">Non-Fiction</a>
+                <a href="#" class="list-group-item list-group-item-warning">Educational</a>
+              </div>
+        </div>
+        <div class="col-md-8">
+            <h1 class="text-center bookHeading">Our Collection for this week</h1>
+            <div class="row books">
+                <div class="col-sm">
+                    <div class="card text-white bg-success mb-3" style="width: 10rem;">
+                    <img src="./Images/Book 1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" style="background: transparent;">
+                            <h5 class="card-title bookName">Book Name</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ex.</p>
+                            <a href="#" class="btn btn-primary">Buy</a>
+                            <span class="pricetag">5</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card text-white bg-success mb-3" style="width: 10rem;">
+                        <img src="./Images/Book 2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" style="background: transparent;">
+                                <h5 class="card-title">Book Name</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ex.</p>
+                                <a href="#" class="btn btn-primary">Read Book</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card text-white bg-success mb-3" style="width: 10rem;">
+                        <img src="./Images/Book 3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" style="background: transparent;">
+                                <h5 class="card-title">Book Name</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ex.</p>
+                                <a href="#" class="btn btn-primary">Read Book</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card text-white bg-success mb-3" style="width: 10rem;">
+                        <img src="./Images/Book 4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" style="background: transparent;">
+                                <h5 class="card-title">Book Name</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ex.</p>
+                                <a href="#" class="btn btn-primary">Read Book</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card text-white bg-success mb-3" style="width: 10rem;">
+                        <img src="./Images/Book 5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" style="background: transparent;">
+                                <h5 class="card-title">Book Name</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ex.</p>
+                                <a href="#" class="btn btn-primary">Read Book</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card text-white bg-success mb-3" style="width: 10rem;">
+                        <img src="./Images/Book 6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" style="background: transparent;">
+                                <h5 class="card-title">Book Name</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ex.</p>
+                                <a href="#" class="btn btn-primary">Read Book</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card text-white bg-success mb-3" style="width: 10rem;">
+                        <img src="./Images/Book 7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" style="background: transparent;">
+                                <h5 class="card-title">Book Name</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ex.</p>
+                                <a href="#" class="btn btn-primary">Read Book</a>
+                                
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card text-white bg-success mb-3" style="width: 10rem;">
+                        <img src="./Images/Book 8.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" style="background: transparent;">
+                                <h5 class="card-title">Book Name</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ex.</p>
+                                <a href="#" class="btn btn-primary">Read Book</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card text-white bg-success mb-3" style="width: 10rem;">
+                        <img src="./Images/Book 9.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" style="background: transparent;">
+                                <h5 class="card-title">Book Name</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ex.</p>
+                                <a href="#" class="btn btn-primary">Read Book</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card text-white bg-success mb-3" style="width: 10rem;">
+                        <img src="./Images/Book 10.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" style="background: transparent;">
+                                <h5 class="card-title">Book Name</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ex.</p>
+                                <a href="#" class="btn btn-primary">Read Book</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card text-white bg-success mb-3" style="width: 10rem;">
+                        <img src="./Images/Book 11.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" style="background: transparent;">
+                                <h5 class="card-title">Book Name</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ex.</p>
+                                <a href="#" class="btn btn-primary">Read Book</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card text-white bg-success mb-3" style="width: 10rem;">
+                        <img src="./Images/Book 12.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" style="background: transparent;">
+                                <h5 class="card-title">Book Name</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ex.</p>
+                                <a href="#" class="btn btn-primary">Read Book</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card text-white bg-success mb-3" style="width: 10rem;">
+                        <img src="./Images/Book 13.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" style="background: transparent;">
+                                <h5 class="card-title">Book Name</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ex.</p>
+                                <a href="#" class="btn btn-primary">Read Book</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card text-white bg-success mb-3" style="width: 10rem;">
+                        <img src="./Images/Book 14.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" style="background: transparent;">
+                                <h5 class="card-title">Book Name</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ex.</p>
+                                <a href="#" class="btn btn-primary">Read Book</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card text-white bg-success mb-3" style="width: 10rem;">
+                        <img src="./Images/Book 15.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" style="background: transparent;">
+                                <h5 class="card-title">Book Name</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ex.</p>
+                                <a href="#" class="btn btn-primary">Read Book</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<footer class="footer text-danger">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <a class="footer-heading" href="./index.html" class="logo">eBook-lover.com</a>
+                
+                <p>
+                <a class="menu" href="./index.html">Home</a>
+                <a class="menu" href="./books.html">Books</a>
+                <a class="menu" href="#">About</a>
+                </p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12 text-center">
+                <p class="copyright text-normal">
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
